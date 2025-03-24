@@ -116,6 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 .first-link {
     color: #404bbf;
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-link::after {
@@ -225,13 +226,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 264px;
     height: 112px;
     background-color: #f4f4fd;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .icon-features .icon {
-    width: 64px; 
-    height: 64px;
-    margin: 24px 100px;
-    
+   
 }
 .team {
     background-color: #f4f4fd;
