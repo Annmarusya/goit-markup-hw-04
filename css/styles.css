@@ -336,7 +336,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
+.portfolio-list-item:hover .image-text{
+    transform: translateY(0%);
+}
 
 .portfolio-list-image {}
 
@@ -355,11 +357,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list-item:hover .image-text{
-    
-        transform: translateY(0%);
-    
-}
+
 
 .portfolio-image {
     position: relative;
