@@ -265,18 +265,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .team-item {
     padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .link-team:hover {
     background-color: #404bbf;
  }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8px;
-}
 
 .social-links-list {
     display: flex;
