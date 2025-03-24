@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.link-team:hover {
+.link-team:hover, .link-team:focus {
     background-color: #404bbf;
  }
 
