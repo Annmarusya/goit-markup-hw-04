@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 .first-link {
     color: #404bbf;
@@ -295,8 +296,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .social-link svg {
     fill: #F4F4FD;
-    width: 16px;
-    height: 16px;
 }
 
 .team-list-subtitle {
@@ -419,12 +418,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-bottom: 16px;
 }
 
 .social-media .social-links-list {
     gap: 16px;
-    margin: 0;
     
 }
 .footer-social:hover, .footer-social:focus{
